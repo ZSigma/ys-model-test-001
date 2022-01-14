@@ -1,0 +1,21 @@
+{
+    "useTaobaoRegistry": false,
+    "packageManager": "npm",
+    "presets": {
+      "vue3-cus": {
+        "useConfigFiles": true,
+        "plugins": {
+          "@vue/cli-plugin-babel": {},
+          "@vue/cli-plugin-eslint": {
+            "config": "prettier",
+            "lintOn": [
+              "save"
+            ]
+          }
+        },
+        "vueVersion": "3"
+      }
+    },
+    "latestVersion": "4.5.15",
+    "lastChecked": 1642065927872
+  }
