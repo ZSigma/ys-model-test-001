@@ -32,7 +32,9 @@ module.exports = (api, options, rootOptions) => {
       }
     });
     // 复制template模版
-    api.render('./template');
+    if(options.tempName){
+        api.render('./template');
+    }
   };
   
   
