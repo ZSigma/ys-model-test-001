@@ -1,5 +1,4 @@
 const fs = require('fs');
-console.log(file)
 module.exports = (api, options, rootOptions) => {
     const package = fs.readFileSync(`./template/${options.tempName}/package_1.json`,'utf-8')
     api.extendPackage(package);
