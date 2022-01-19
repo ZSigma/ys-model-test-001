@@ -31,6 +31,8 @@ module.exports = (api, options, rootOptions) => {
         "vue-template-compiler": "^2.6.11"
       }
     });
+    console.log('-----------------------------------------------------')
+    console.log(options);
     // 复制template模版
     if(options.tempName){
         api.render('./template');
