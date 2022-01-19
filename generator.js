@@ -35,7 +35,7 @@ module.exports = (api, options, rootOptions) => {
     console.log(options);
     // 复制template模版
     if(options.tempName){
-        api.render('./template');
+        api.render(`./template/${options.tempName}`);
     }
   };
   
